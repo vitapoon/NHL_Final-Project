@@ -1,4 +1,4 @@
-# NHL Salary Prediction Final Project
+# NHL_Final Project
 
 ## Select Topic
 I selected to work with the NHL Salary Data. The Dataset encompasses numerour player statisitcs 
