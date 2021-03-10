@@ -14,6 +14,14 @@ Do I need to add more data to get a high accuracy score when using a machine lea
 
 ## Description of the data exploration phase of the project
 
+I began the project by importing game_plays.csv to jupyter notebook(NHL Data cleaning and Modeling for wins
+). I noticed that the some of the  columns had data that would be tough to sort because it was not in the correct format. In order to change this I used to methods to clean up the column and some data transformation did occur within Excel, however most of the data clean up was done through Jupyter Notebook. 
+
+For the data portion of this project we used SQL, R & Python. If you take a look at our NHL Data cleaning and Modeling for wins.ipynb file, what can be seen is I made home_goals and away_goals data binary for Home Advantage Analysis. I also merge the team_info.csv and game_teams_stats data sets.  The game_teams_stats.csv data set does not  show the team_id information, and I made the 'won' column data binary for Plays Analysis
+
+The main library we used with python was pandas to import, clean and merge the data. With our merged data we are able to search for correlations to see what features had an impact on the goals and wins result column. After merged and  binary some columns, I decided to look at team and game statistics and many other metrics.
+
+
 ## Description of the analysis phase of the project
 
 
