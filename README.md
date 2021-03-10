@@ -27,7 +27,7 @@ Github will be the primary code hosting platform.
 Excel will be used as an overview to the data. Pandas will be used to clean the data and perform an exploratory analysis. Further analysis will be completed using Python and Jupyter Notebook.
 
 ## Database Storage
-I connected pandas with SQL and created databse called NBA_DB that can store the working data.
+I connected pandas with SQL and created databse called NHL_DB that can store the working data.
 
 ## Machine Learning
 SciKitLearn is the ML library we'll be using to create a classifier. Our training and testing setup is using an 75/25 train-test split ratio. The training set was then fit into a Logistic Regression classifier.
