@@ -37,6 +37,8 @@ Excel will be used as an overview to the data. Pandas will be used to clean the 
 ## Database Storage
 I connected pandas with SQL and created databse called NHL_DB that can store the working data.
 
+![QuickDBD-Free Diagram](https://user-images.githubusercontent.com/71739110/110926037-dc3bc080-835e-11eb-8fbc-edad464d0973.png)
+
 ## Machine Learning
 SciKitLearn is the ML library we'll be using to create a classifier. Our training and testing setup is using an 75/25 train-test split ratio. The training set was then fit into a Logistic Regression classifier.
 
