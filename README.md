@@ -1,5 +1,8 @@
 # NHL_Final Project
 
+## Team Roles
+Due to my persional issue, I work on my project on my own.
+
 ## Project Goal
 
 My goal is to determine if there is any correlation between our features(shot_type,home_goals,away_goals,key plays(goal,shot,hits...)) selected and if teams are successful or in not making the goal or win. If there is a correlation, I would like to see what other features from different data not in our current set have a strong correlation to the win result output such as advanced play metrics. I selected this topic because I want to see what the potential outcomes are based on the data we have chosen. Furthermore, I feel that based on this data I can predict how certain teams will perform by the shot type, key stats they creat and if there is  home advantage.
