@@ -2,15 +2,12 @@ CREATE TABLE game_plays (
 	game_id INTEGER,
 	event VARCHAR (60),
 	secondaryType VARCHAR,
-	x INTEGER,
-	y INTEGER,
 	periodType VARCHAR (60),
 	periodTime INTEGER,
 	periodTimeRemaining TIME,
 	goals_away  INTEGER,
-	goals_home INTEGER,
-	st_x INTEGER,
-	st_y INTEGER	
+	goals_home INTEGER
+	
 );
 
 SELECT * FROM game_plays
@@ -28,7 +25,7 @@ CREATE TABLE game_teams_stats (
 	pim INTEGER,
 	powerPlayOpportunities INTEGER,
 	powerPlayGoals INTEGER,
-	faceOffWinPercentage INTEGER,
+	faceOffWinPercentage REAL,
 	giveaway INTEGER,
 	takeaway INTEGER,
 	blocked  INTEGER,
