@@ -27,6 +27,18 @@ The main library we used with python was pandas to import, clean and merge the d
 
 ## Description of the analysis phase of the project
 
+The analysis phase consisted of creating four SQL tables using PGadmin to prepare our data for the machine learning model. The tables created are the 'game_plays','games','team_info','team_stats' Using the 'team_stats' table and joining the 'team_info' table on 'team_id'. The combined SQL query was exported as the 'teams'table. This was used to train and test our machine learning model for play analysis.
+
+Using Jupyter Notebook, the CSV files were imported and the number of columns was reduced in an iterative process; columns with null values were filled or dropped according to importance. All objects were converted float64 or int64 variables and encoded. The encoded dataframe was split into training and testing sets. The values for 'X' were all values, with the exception of the 'winner' column which was used for the 'y' values.
+
+For shots type analysis, the training set was ran through a BalancedRandomForestClassifier,EasyEnsembleClassifier and LogisticRegression machine learning model. The accuracy score test was 58%, 59% and 91% respectively.
+
+For home advantage analysis, I analysed the Regular game data, and applyed LogisticRegression machine learning model. The accuracy score test was 53%
+
+According to the NHL_project_datasets_analysis.ipynb, I found out that some key features ('goals','shots','hits','pim','faceOffWinPercentage','takeaways','giveaways','powerPlayGoals','powerPlayOpportunities') were correlated with 'won'. Therefore for the plays analysis, I tried different ML algorithms with the selected variables to see which one performs best. Comparing with SVM, LogisticRegression machine learning model.preformed best for predicting wins.
+
+Ultimately I found that keeping our data as binary as possible renders better accuracy for the machine learning model selected; furthermore, I found the top features with the greatest importance to be shots type, home advantage, and important features
+('goals','shots','hits','pim','faceOffWinPercentage','takeaways','giveaways','powerPlayGoals','powerPlayOpportunities')
 
 
 # Technologies Used
