@@ -35,6 +35,5 @@ As a result, I ran different machine learning models, the most accuracy I was ab
 ## Play Advantage (Key Features)
 
 ![Screen Shot 2021-03-18 at 3 59 03 PM](https://user-images.githubusercontent.com/71739110/111592160-5d81d000-8803-11eb-850f-488381976181.png)
-
-
+![Screen Shot 2021-03-18 at 4 04 11 PM](https://user-images.githubusercontent.com/71739110/111592422-b94c5900-8803-11eb-89b7-44658c03c0a6.png)
 
