@@ -24,8 +24,11 @@ Apart from the shot type and home advantage,there are other important features('
 As a result, I ran different machine learning models, the most accuracy I was able to achieve with is the Logistic Regression. 
 
 ## Shot Type Analysis
+![EL](https://user-images.githubusercontent.com/71739110/111591063-e861cb00-8801-11eb-9fa4-3d6391778508.png)
+![EEAC](https://user-images.githubusercontent.com/71739110/111591073-eb5cbb80-8801-11eb-9d98-7ae6249436e8.png)
+![LR](https://user-images.githubusercontent.com/71739110/111591077-ec8de880-8801-11eb-88e4-e373e7b5f079.png)
 
-
+## Home Advantage
 
 
 
