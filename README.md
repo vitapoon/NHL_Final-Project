@@ -1,4 +1,4 @@
-# NHL_Final Project
+# NHL_Solo_Final Project
 
 ## Team Roles
 Due to my persional issue, I work on my project on my own.
