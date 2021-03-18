@@ -16,9 +16,15 @@ I want to see if there is any home game advantage or away game advantage in Hock
 ## Important Features with Win
 Apart from the shot type and home advantage,there are other important features('goals','shots','hits','pim','faceOffWinPercentage','takeaways','giveaways','powerPlayGoals','powerPlayOpportunities') are correlated to win.
 
+![key features](https://user-images.githubusercontent.com/71739110/111589936-763cb680-8800-11eb-9914-ab71a6e98d7c.png)
 
 
-As a result, we ran multiple machine learning models, but the most accuracy we were able to achieve with the Easy Ensemble. We received 60% accuracy level and given the data we have, this was a the best so far.
+# Machine Learing with different Models
+
+As a result, I ran different machine learning models, the most accuracy I was able to achieve with is the Logistic Regression. 
+
+## Shot Type Analysis
+
 
 
 
