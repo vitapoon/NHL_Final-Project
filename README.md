@@ -11,6 +11,10 @@ Based on my final data, I do  see some correlation between shots type, home adva
 ## Home Advantage
 I want to see if there is any home game advantage or away game advantage in Hocky games? It does has a little bit home advantage.
 
+![home advantage](https://user-images.githubusercontent.com/71739110/111589413-c8310c80-87ff-11eb-88bb-6b29c85068c1.png)
+
+## Important Features with Win
+Apart from the shot type and home advantage,there are other important features('goals','shots','hits','pim','faceOffWinPercentage','takeaways','giveaways','powerPlayGoals','powerPlayOpportunities') are correlated to win.
 
 
 
