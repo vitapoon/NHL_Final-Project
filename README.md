@@ -61,10 +61,13 @@ SciKitLearn is the ML library we'll be using to create a classifier. Our trainin
 
 More Detail:https://github.com/vitapoon/NHL_Final-Project/tree/MachineLearning
 
+## Dashboard
+
+
 # Resources
 Data Source: Kaggle
 
 # Presentation
 
-# Conclusion
+
 
