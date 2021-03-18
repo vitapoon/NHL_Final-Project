@@ -58,6 +58,7 @@ More Detail: https://github.com/vitapoon/NHL_Final-Project/tree/data-mockup
 
 ## Machine Learning
 SciKitLearn is the ML library we'll be using to create a classifier. Our training and testing setup is using an 75/25 train-test split ratio. The training set was then fit into a Logistic Regression classifier.
+
 More Detail:https://github.com/vitapoon/NHL_Final-Project/tree/MachineLearning
 
 # Resources
