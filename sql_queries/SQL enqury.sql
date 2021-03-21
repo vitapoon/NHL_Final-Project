@@ -16,7 +16,7 @@ CREATE TABLE game_teams_stats (
 	game_id INTEGER,
 	team_id INTEGER,
 	HoA VARCHAR (60),
-	won BOOLEAN,
+	won INTEGER,
 	settled_in VARCHAR,
 	head_codch VARCHAR,
 	goals INTEGER,
@@ -28,10 +28,11 @@ CREATE TABLE game_teams_stats (
 	faceOffWinPercentage REAL,
 	giveaway INTEGER,
 	takeaway INTEGER,
-	blocked  INTEGER,
+	block INTEGER,
 	startRinkSide VARCHAR (60)
 );
 
+select*from game_teams_stats
 
 CREATE TABLE game (
 	game_id INTEGER,
