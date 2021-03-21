@@ -9,6 +9,7 @@ DB includes 5 tables;
 
 DB includes one join using the database language;
 
+![join](https://user-images.githubusercontent.com/71739110/111904501-456bb400-8a82-11eb-8351-b6d2752c66c3.png)
 
 
 If use SQL database, provide ERD with relationships;
