@@ -52,7 +52,7 @@ Excel will be used as an overview to the data. Pandas will be used to clean the 
 ## Database Storage
 I connected pandas with SQL and created databse called NHL_DB that can store the working data.
 
-![QuickDBD-Free Diagram](https://user-images.githubusercontent.com/71739110/110926037-dc3bc080-835e-11eb-8fbc-edad464d0973.png)
+![QuickDBD-Free Diagram (1)](https://user-images.githubusercontent.com/71739110/111904946-3d147880-8a84-11eb-915c-628f2291ffd5.png)
 
 More Detail: https://github.com/vitapoon/NHL_Final-Project/tree/data-mockup
 
