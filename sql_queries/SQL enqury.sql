@@ -1,16 +1,16 @@
 CREATE TABLE game_plays (
 	game_id INTEGER,
 	event VARCHAR (60),
-	secondaryType VARCHAR,
+	secondaryType TEXT,
+	period INTEGER,
 	periodType VARCHAR (60),
 	periodTime INTEGER,
-	periodTimeRemaining TIME,
+	periodTimeRemaining INTEGER,
 	goals_away  INTEGER,
 	goals_home INTEGER
 	
 );
-
-SELECT * FROM game_plays
+select*from game_plays
 
 CREATE TABLE game_teams_stats (
 	game_id INTEGER,
