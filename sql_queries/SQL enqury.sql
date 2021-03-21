@@ -55,3 +55,27 @@ CREATE TABLE team_info (
 	abbreviation VARCHAR
 );
 	
+SELECT team_info.franchiseid,team_info.shortname,team_info.teamname,team_info.abbreviation,
+     game_teams_stats.game_id,
+	 game_teams_stats.team_id,
+	 game_teams_stats.HoA,
+	 game_teams_stats.won,
+     game_teams_stats.settled_in,
+	 game_teams_stats.head_codch,
+	 game_teams_stats.goals,
+	 game_teams_stats.shots,
+	 game_teams_stats.hits,
+	 game_teams_stats.pim,
+	 game_teams_stats.powerPlayOpportunities,
+	 game_teams_stats.powerPlayGoals,
+	 game_teams_stats.faceOffWinPercentage,
+	 game_teams_stats.giveaway,
+	 game_teams_stats.takeaway,
+	 game_teams_stats.block,
+	 game_teams_stats.startRinkSide
+INTO teams
+FROM team_info
+INNER JOIN game_teams_stats
+ON team_info.team_id = game_teams_stats.team_id;
+
+select * from teams
