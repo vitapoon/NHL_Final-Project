@@ -13,3 +13,6 @@ DB includes one join using the database language;
 
 
 If use SQL database, provide ERD with relationships;
+
+![QuickDBD-Free Diagram (1)](https://user-images.githubusercontent.com/71739110/111904946-3d147880-8a84-11eb-915c-628f2291ffd5.png)
+
