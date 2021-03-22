@@ -5,6 +5,7 @@ DB stores static data for use during the project;
 
 DB interfaces with the project in some format (e.a database connects to the model);
 
+![Screen Shot 2021-03-22 at 8 43 39 PM](https://user-images.githubusercontent.com/71739110/111992379-4ec35200-8b50-11eb-9cf0-eb0f014f9967.png)
 
 DB includes 5 tables;
 
