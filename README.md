@@ -17,6 +17,7 @@ DB includes one join using the database language;
 
 DB includes at least one connection string (using SQLAlchemy)
 
+![Screen Shot 2021-03-22 at 8 52 55 PM](https://user-images.githubusercontent.com/71739110/111992815-d3ae6b80-8b50-11eb-81a2-331bc06370c7.png)
 
 
 If use SQL database, provide ERD with relationships;
