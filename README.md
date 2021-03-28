@@ -10,8 +10,11 @@ My goal is to determine if there is any correlation between shot_type,home advan
 ## Questions we want to answer
 
 Is there strong correlations between shot type and event(goal/shot)?
+
 Is there a connection between being on the home team for  players to have a better win percentage?
+
 Is there strong correlations between key stats and wins?
+
 Do I need to add more data to get a high accuracy score when using a machine learning model?
 
 
